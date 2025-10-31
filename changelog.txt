@@ -1,3 +1,69 @@
+VERSION[beta][2025/10/31]
+
+--- New to Path of Building ---
+- Feat: Handle non-ASCII account names better (Nightblade)
+- Update uniques (Paliak)
+- Update PoE.Ninja URLs after migration (Wires77)
+- Add support for counting the number of projectiles in a spiral (Inzagini)
+- Add support for Aul Bloodline (Peechey)
+- Add support for Oshabi Bloodline (Peechey)
+- Add support for Ritualist Bloodline (Peechey)
+- Add support for new & reworked Assassin Ascendancy nodes (majochem)
+- Update "Rupture" stack maximum from 3 to 4 (majochem)
+- Implement "Minion Attacks now inherently always Hit" (majochem)
+- Added a launch option to bypass SSL verification on downloads (LeonSparta)
+- Add four new spectres and update three existing spectres (Lothrik)
+- Add support for Chaos Bloodline (LocalIdentity)
+- [pob2-port] Memoize MatchKeywordFlags function (github-actions[bot])
+- [pob2-port] Add setting to override Windows scaling from PoB (github-actions[bot])
+- Add 3.27 Skill Tree (LocalIdentity)
+
+--- Fixed Crashes ---
+- Fix two minion skill related crashes (Lothrik)
+
+--- User Interface ---
+- Add support for DPI Scaling (LeonSparta)
+- [pob2-port] Sort Gem list Alphabetically by default (github-actions[bot])
+- [pob2-port] Add CTRL + C to error message to copy error text (github-actions[bot])
+- Add passive tree search tip (Nightblade)
+- [pob2-port] Update Font Files (github-actions[bot])
+- Improve UI to match in-game fonts and Item previews (Blitz54)
+
+--- Fixed Calculations ---
+- Fix Spell Echo not working with some Minion skills (LocalIdentity)
+- Correct skill slot comparison for General's Cry detection (emmanuel-ferdman)
+- Use correct stat to set "Every3UseCrit" flag for Glacial Hammer of Shattering (fabianmaurer)
+
+--- Fixed Behaviours ---
+- Fix LIST type mods being duplicated (Paliak)
+- 'Monsters cannot be Leeched from' map mod now disables ES leech (n1tr0xs)
+- Add startup flags to improve PoB speed (github-actions[bot])
+- Fix "Chaos Golem of the Maelström" not enabling wither config option (majochem)
+- Improve skill level breakdown and add gem quality breakdown to calcs tab (Paliak)
+- [pob2-port] Load Gem tooltips on hover instead of when sorting by DPS (github-actions[bot])
+- Fix EO incorrectly setting ailment chance to 0% for critical strikes (majochem)
+
+--- Accuracy Improvements ---
+- Update mods on several uniques to use metres for radius instead of units (jeremykvlim)
+- Fix Breakdown of Crit Damage when using Dance with Death (LocalIdentity)
+- Change "other Ring" wording to "opposite Ring" (majochem)
+- Fix missing Malevolence Aura Effect on String of Servitude (Inzagini)
+
+--- Fixed Bugs ---
+- Update BuildSiteTools.lua (Antorell)
+- Disable trade UI elements when leagues are not populated (Wires77)
+- Fix error appearing on certain tooltips (Wires77)
+
+--- Other changes ---
+- Update to SimpleGraphic v2.4.1 (github-actions[bot])
+- Update permissions for Linux (Wires77)
+- Fix subscript errors (Wires77)
+- Update to SimpleGraphic v2.5.0 (github-actions[bot])
+- [pob2-port] Fix errorneous call to GetUserPath and update pop-up message (github-actions[bot])
+- Update to SimpleGraphic v2.5.1 (github-actions[bot])
+- Fix fated unique flavour text (Blitz54)
+- Release 2.57.0 (github-actions[bot])
+
 VERSION[2.57.0][2025/10/30]
 
 --- Keepers of the Flame ---

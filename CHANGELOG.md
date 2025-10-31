@@ -1,5 +1,69 @@
 # Changelog
 
+## [beta](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/beta) (2025/10/31)
+
+[Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding/compare/v2.56.0...beta)
+
+
+## What's Changed
+### New to Path of Building
+- Feat: Handle non-ASCII account names better [\#8949](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8949) ([Nightblade](https://github.com/Nightblade))
+- Update uniques [\#8976](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8976) ([Paliak](https://github.com/Paliak))
+- Update PoE.Ninja URLs after migration [\#8967](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8967) ([Wires77](https://github.com/Wires77))
+- Add support for counting the number of projectiles in a spiral [\#8995](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8995) ([Inzagini](https://github.com/Inzagini))
+- Add support for Aul Bloodline [\#9054](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9054) ([Peechey](https://github.com/Peechey))
+- Add support for Oshabi Bloodline [\#9056](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9056) ([Peechey](https://github.com/Peechey))
+- Add support for Ritualist Bloodline [\#9055](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9055) ([Peechey](https://github.com/Peechey))
+- Add support for new & reworked Assassin Ascendancy nodes [\#9025](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9025) ([majochem](https://github.com/majochem))
+- Update "Rupture" stack maximum from 3 to 4 [\#9024](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9024) ([majochem](https://github.com/majochem))
+- Implement "Minion Attacks now inherently always Hit" [\#9023](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9023) ([majochem](https://github.com/majochem))
+- Added a launch option to bypass SSL verification on downloads [\#9017](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9017) ([LeonSparta](https://github.com/LeonSparta))
+- Add four new spectres and update three existing spectres [\#9069](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9069) ([Lothrik](https://github.com/Lothrik))
+- Add support for Chaos Bloodline [\#9070](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9070) ([LocalIdentity](https://github.com/LocalIdentity))
+- [pob2-port] Memoize MatchKeywordFlags function [\#9047](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9047) ([github-actions](https://github.com/github-actions)[bot])
+- [pob2-port] Add setting to override Windows scaling from PoB [\#9048](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9048) ([github-actions](https://github.com/github-actions)[bot])
+- Add 3.27 Skill Tree [\#9068](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9068) ([LocalIdentity](https://github.com/LocalIdentity))
+### Fixed Crashes
+- Fix two minion skill related crashes [\#9062](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9062) ([Lothrik](https://github.com/Lothrik))
+### User Interface
+- Add support for DPI Scaling [\#8989](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8989) ([LeonSparta](https://github.com/LeonSparta))
+- [pob2-port] Sort Gem list Alphabetically by default [\#9007](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9007) ([github-actions](https://github.com/github-actions)[bot])
+- [pob2-port] Add CTRL + C to error message to copy error text [\#8992](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8992) ([github-actions](https://github.com/github-actions)[bot])
+- Add passive tree search tip [\#8986](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8986) ([Nightblade](https://github.com/Nightblade))
+- [pob2-port] Update Font Files [\#9053](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9053) ([github-actions](https://github.com/github-actions)[bot])
+- Improve UI to match in-game fonts and Item previews [\#9063](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9063) ([Blitz54](https://github.com/Blitz54))
+### Fixed Calculations
+- Fix Spell Echo not working with some Minion skills [\#8956](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8956) ([LocalIdentity](https://github.com/LocalIdentity))
+- Correct skill slot comparison for General's Cry detection [\#8954](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8954) ([emmanuel-ferdman](https://github.com/emmanuel-ferdman))
+- Use correct stat to set "Every3UseCrit" flag for Glacial Hammer of Shattering [\#8997](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8997) ([fabianmaurer](https://github.com/fabianmaurer))
+### Fixed Behaviours
+- Fix LIST type mods being duplicated [\#8977](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8977) ([Paliak](https://github.com/Paliak))
+- 'Monsters cannot be Leeched from' map mod now disables ES leech [\#8970](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8970) ([n1tr0xs](https://github.com/n1tr0xs))
+- Add startup flags to improve PoB speed [\#9042](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9042) ([github-actions](https://github.com/github-actions)[bot])
+- Fix "Chaos Golem of the Maelström" not enabling wither config option [\#8988](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8988) ([majochem](https://github.com/majochem))
+- Improve skill level breakdown and add gem quality breakdown to calcs tab [\#9002](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9002) ([Paliak](https://github.com/Paliak))
+- [pob2-port] Load Gem tooltips on hover instead of when sorting by DPS [\#9049](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9049) ([github-actions](https://github.com/github-actions)[bot])
+- Fix EO incorrectly setting ailment chance to 0% for critical strikes [\#9061](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9061) ([majochem](https://github.com/majochem))
+### Accuracy Improvements
+- Update mods on several uniques to use metres for radius instead of units [\#8950](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8950) ([jeremykvlim](https://github.com/jeremykvlim))
+- Fix Breakdown of Crit Damage when using Dance with Death [\#9012](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9012) ([LocalIdentity](https://github.com/LocalIdentity))
+- Change "other Ring" wording to "opposite Ring" [\#9028](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9028) ([majochem](https://github.com/majochem))
+- Fix missing Malevolence Aura Effect on String of Servitude [\#9000](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9000) ([Inzagini](https://github.com/Inzagini))
+### Fixed Bugs
+- Update BuildSiteTools.lua [\#9006](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9006) ([Antorell](https://github.com/Antorell))
+- Disable trade UI elements when leagues are not populated [\#8984](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/8984) ([Wires77](https://github.com/Wires77))
+- Fix error appearing on certain tooltips [\#9087](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9087) ([Wires77](https://github.com/Wires77))
+### Other changes
+- Update to SimpleGraphic v2.4.1 [\#9021](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9021) ([github-actions](https://github.com/github-actions)[bot])
+- Update permissions for Linux [\#9040](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9040) ([Wires77](https://github.com/Wires77))
+- Fix subscript errors [\#9041](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9041) ([Wires77](https://github.com/Wires77))
+- Update to SimpleGraphic v2.5.0 [\#9071](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9071) ([github-actions](https://github.com/github-actions)[bot])
+- [pob2-port] Fix errorneous call to GetUserPath and update pop-up message [\#9082](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9082) ([github-actions](https://github.com/github-actions)[bot])
+- Update to SimpleGraphic v2.5.1 [\#9084](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9084) ([github-actions](https://github.com/github-actions)[bot])
+- Fix fated unique flavour text [\#9085](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9085) ([Blitz54](https://github.com/Blitz54))
+- Release 2.57.0 [\#9083](https://github.com/PathOfBuildingCommunity/PathOfBuilding/pull/9083) ([github-actions](https://github.com/github-actions)[bot])
+
+
 ## [v2.57.0](https://github.com/PathOfBuildingCommunity/PathOfBuilding-PoE2/tree/v2.57.0) (2025/10/30)
 
 [Full Changelog](https://github.com/PathOfBuildingCommunity/PathOfBuilding/compare/v2.56.0...v2.57.0)
